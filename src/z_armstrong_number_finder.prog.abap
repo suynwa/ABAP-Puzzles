@@ -33,7 +33,6 @@ class LCL_START implementation.
                 ( N ) ) ).
 
   endmethod.
-
 endclass.
 
 start-of-selection.
