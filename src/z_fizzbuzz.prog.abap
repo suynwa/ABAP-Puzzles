@@ -17,7 +17,7 @@ class LCL_START implementation.
     CL_DEMO_OUTPUT=>DISPLAY(
       NAME = |It's FizzBuzz time|
       DATA = value TT_OUTPUT(
-               for I = 1 while I <= MAX_NUMBER
+               for I = 1 until I > MAX_NUMBER
                ( cond #(
                     let J = I mod 3
                         K = I mod 5 in
